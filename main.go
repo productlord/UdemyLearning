@@ -1,8 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"math")
+import "fmt"
+	
 	
 
 func fib(x uint64) uint64 {
@@ -21,7 +20,7 @@ func fib(x uint64) uint64 {
 func main() {
 	
 	for j:= 1; j < 51; j++ {
-		fmt.Println(fib(uint64(j))
+		fmt.Println(fib(uint64(j)))
 	}
 	
 }
