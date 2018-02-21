@@ -19,8 +19,8 @@ func fib(x uint64) uint64 {
 
 func main() {
 	
-	for j:= 1; j < 51; j++ {
-		fmt.Println(fib(uint64(j)))
+	for j:= 1; j <= 51; j++ {
+		fmt.Println(j-1, ":", fib(uint64(j)))
 	}
 	
 }
